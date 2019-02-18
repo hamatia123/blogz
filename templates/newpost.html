@@ -5,7 +5,7 @@
 <form action="/newpost" method="POST">
     <table>
         <tr>
-            <td><label for="blog_title">Title for your new blog:</label></td>
+            <td><label for="blog_title">What is your post?</label></td>
         </tr>
         <tr>
             <td><input type="text" name="blog_title" id="blog_title" value="{{blog_title}}" /></td>
@@ -17,7 +17,7 @@
             <td></td>
         </tr>
         <tr>
-            <td><label for="blog_content">Your new blog:</label></td>
+            <td><label for="blog_content">Write a post!</label></td>
         </tr>
         <tr>
             <td colspan="2"><textarea name="blog_content" id="blog_content" wrap="hard">{{blog_content}}</textarea></td>
@@ -26,7 +26,7 @@
             <td class="error">{{content_error}}</td>
         </tr>
         <tr>
-            <td><input type="submit" value="Add Entry" /></td>
+            <td><input type="submit" value="Post my blog!" /></td>
         </tr>
     </table>
 </form>
